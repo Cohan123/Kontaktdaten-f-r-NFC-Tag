@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ich suche meine Eltern</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, -apple-system, Arial, sans-serif;
+    color: #1a1a1a;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    line-height: 1.5;
+    position: relative;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url("20260927_164250.jpg") center / cover no-repeat;
+    opacity: 0.35;
+    z-index: -1;
+  }
+  .card {
+    background: rgba(255,255,255,0.92);
+    max-width: 700px;
+    width: 100%;
+    padding: 48px 32px;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 24px;
+  }
+  .name {
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+  }
+  .contact {
+    font-size: 1.25rem;
+    margin: 16px 0;
+  }
+  .contact strong { display: block; font-size: 1rem; color: #555; margin-bottom: 4px; }
+  .contact a {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0b5ed7;
+    text-decoration: none;
+  }
+  .contact a:hover { text-decoration: underline; }
+  .address-box {
+    margin-top: 28px;
+    background: #fff3cd;
+    border: 3px solid #ff8800;
+    border-radius: 12px;
+    padding: 24px;
+  }
+  .address-box strong {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  .address {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .note { margin-top: 24px; color: #666; font-size: 0.95rem; }
+</style>
+</head>
+<body>
+  <main class="card">
+    <h1>Hallo!</h1>
+    <p class="name">Mein Name ist <strong>Jaron Pschibul</strong> und ich suche meine Eltern.</p>
+
+    <div class="contact">
+      <strong>Sie erreichen meine Mama, Jana Pschibul, unter:</strong>
+      <a href="tel:+490000000000">017670343755</a>
+    </div>
+
+    <div class="contact">
+      <strong>und meinen Papa, Daniel Pschibul, unter:</strong>
+      <a href="tel:+490000000000">017670355058</a>
+    </div>
+
+    <div class="address-box">
+      <strong>Hier wohne ich:</strong>
+      <div class="address">Leharstraße 6C<br>86179 Augsburg</div>
+    </div>
+
+    <p class="note">Bitte helfen Sie mir, nach Hause zu kommen. Vielen Dank!</p>
+  </main>
+</body>
+</html>
